@@ -16,6 +16,10 @@ func circleWide(p int)float64{
 
 
 func main() {
-	fmt.Println(circleAround(10))
-	fmt.Println(circleWide(10))
+	var p int 
+	fmt.Scan(&p)
+	// fmt.Println(circleAround(p))
+	// fmt.Println(circleWide(p))
+	fmt.Println("hasil keliling:", circleAround(p))
+	fmt.Println("hasil luas:", circleWide(p))
 }
